@@ -14,3 +14,7 @@ how to copy into `/bin/` to use as a command:
 ```bash
 sudo cp ./dis /bin/
 ```
+If permission is denied when you run `dis`, try this command:
+```bash
+sudo chmod 755 /bin/dis
+```
